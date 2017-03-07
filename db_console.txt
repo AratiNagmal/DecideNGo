@@ -1,0 +1,135 @@
+Microsoft Windows [Version 6.1.7600]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Arati>d:
+
+D:\>cd ProgramFiles
+
+D:\ProgramFiles>cd RailsInstaller
+
+D:\ProgramFiles\RailsInstaller>cd Ruby2.2.0
+
+D:\ProgramFiles\RailsInstaller\Ruby2.2.0>cd bin
+
+D:\ProgramFiles\RailsInstaller\Ruby2.2.0\bin>cd DecideNGo
+
+D:\ProgramFiles\RailsInstaller\Ruby2.2.0\bin\DecideNGo>rails  c
+Loading development environment (Rails 5.0.1)
+irb(main):001:0> Member
+=> Member (call 'Member.connection' to establish a connection)
+irb(main):002:0> Member.connection
+=> #<ActiveRecord::ConnectionAdapters::SQLite3Adapter:0x56c11c8 @transaction_manager=#<ActiveRecord::ConnectionAdapters::TransactionManager:0x5690400
+@stack=[], @connection=#<ActiveRecord::ConnectionAdapters::SQLite3Adapter:0x56c11c8 ...>>, @query_cache={}, @query_cache_enabled=false, @connection=#<
+SQLite3::Database:0x56c1270 @tracefunc=nil, @authorizer=nil, @encoding=nil, @busy_handler=nil, @collations={}, @functions={}, @results_as_hash=true, @
+type_translation=nil, @readonly=false>, @owner=#<Thread:0x8e4910 run>, @instrumenter=#<ActiveSupport::Notifications::Instrumenter:0x5690328 @id="68038
+f7742cdfdf87732", @notifier=#<ActiveSupport::Notifications::Fanout:0x41f8b60 @subscribers=[#<ActiveSupport::Notifications::Fanout::Subscribers::Evente
+d:0x3766dd0 @pattern="render_bind.active_record", @delegate=#<ActiveRecord::LogSubscriber:0x37673b8 @queue_key="ActiveRecord::LogSubscriber-29047260",
+ @patterns=["render_bind.active_record", "sql.active_record"], @odd=false>, @can_publish=false>, #<ActiveSupport::Notifications::Fanout::Subscribers::
+Evented:0x3766830 @pattern="sql.active_record", @delegate=#<ActiveRecord::LogSubscriber:0x37673b8 @queue_key="ActiveRecord::LogSubscriber-29047260", @
+patterns=["render_bind.active_record", "sql.active_record"], @odd=false>, @can_publish=false>, #<ActiveSupport::Notifications::Fanout::Subscribers::Ev
+ented:0x3f5d840 @pattern="render_template.action_view", @delegate=#<ActionView::LogSubscriber:0x3f5dae0 @root=nil, @queue_key="ActionView::LogSubscrib
+er-33222000", @patterns=["render_template.action_view", "render_partial.action_view", "render_collection.action_view", "logger.action_view"]>, @can_pu
+blish=false>, #<ActiveSupport::Notifications::Fanout::Subscribers::Evented:0x3f5d540 @pattern="render_partial.action_view", @delegate=#<ActionView::Lo
+gSubscriber:0x3f5dae0 @root=nil, @queue_key="ActionView::LogSubscriber-33222000", @patterns=["render_template.action_view", "render_partial.action_vie
+w", "render_collection.action_view", "logger.action_view"]>, @can_publish=false>, #<ActiveSupport::Notifications::Fanout::Subscribers::Evented:0x3f5d2
+58 @pattern="render_collection.action_view", @delegate=#<ActionView::LogSubscriber:0x3f5dae0 @root=nil, @queue_key="ActionView::LogSubscriber-33222000
+", @patterns=["render_template.action_view", "render_partial.action_view", "render_collection.action_view", "logger.action_view"]>, @can_publish=false
+>, #<ActiveSupport::Notifications::Fanout::Subscribers::Evented:0x3f5cfd0 @pattern="logger.action_view", @delegate=#<ActionView::LogSubscriber:0x3f5da
+e0 @root=nil, @queue_key="ActionView::LogSubscriber-33222000", @patterns=["render_template.action_view", "render_partial.action_view", "render_collect
+ion.action_view", "logger.action_view"]>, @can_publish=false>, #<ActiveSupport::Notifications::Fanout::Subscribers::Evented:0x5c6c490 @pattern="sql.ac
+tive_record", @delegate=#<ActiveRecord::ExplainSubscriber:0x5c6c4d8>, @can_publish=false>], @listeners_for=#<Concurrent::Map:0x41f8b30 entries=0 defau
+lt_proc=nil>, @_mutex=#<Mutex:0x41f8ad0>>>, @logger=#<ActiveSupport::Logger:0x4129698 @progname=nil, @level=0, @default_formatter=#<Logger::Formatter:
+0x4129620 @datetime_format=nil>, @formatter=#<ActiveSupport::Logger::SimpleFormatter:0x43f47a8 @datetime_format=nil>, @logdev=#<Logger::LogDevice:0x41
+295f0 @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<File:D:/ProgramFiles/RailsInstaller/Ruby2.2.0/bin/DecideNGo/log/development.log>, @mutex=
+#<Logger::LogDevice::LogDeviceMutex:0x41295d8 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x41295a8>>>, @local_levels=#<Concurrent::Map:0x4129560
+ entries=0 default_proc=nil>>, @config={:adapter=>"sqlite3", :pool=>5, :timeout=>5000, :database=>"D:/ProgramFiles/RailsInstaller/Ruby2.2.0/bin/Decide
+NGo/db/development.sqlite3"}, @pool=#<ActiveRecord::ConnectionAdapters::ConnectionPool:0x62a48a8 @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x62
+a4848>, @query_cache_enabled=#<Concurrent::Map:0x62a4830 entries=0 default_proc=#<Proc:0x62a4800@D:/ProgramFiles/RailsInstaller/Ruby2.2.0/lib/ruby/gem
+s/2.2.0/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/query_cache.rb:27>>, @spec=#<ActiveRecord::ConnectionAdapters::Connecti
+onSpecification:0x62a72a8 @name="primary", @config={:adapter=>"sqlite3", :pool=>5, :timeout=>5000, :database=>"D:/ProgramFiles/RailsInstaller/Ruby2.2.
+0/bin/DecideNGo/db/development.sqlite3"}, @adapter_method="sqlite3_connection">, @checkout_timeout=5, @reaper=#<ActiveRecord::ConnectionAdapters::Conn
+ectionPool::Reaper:0x62a47b8 @pool=#<ActiveRecord::ConnectionAdapters::ConnectionPool:0x62a48a8 ...>, @frequency=nil>, @size=5, @thread_cached_conns=#
+<Concurrent::Map:0x62a4788 entries=1 default_proc=nil>, @connections=[#<ActiveRecord::ConnectionAdapters::SQLite3Adapter:0x56c11c8 ...>], @automatic_r
+econnect=true, @now_connecting=0, @threads_blocking_new_connections=0, @available=#<ActiveRecord::ConnectionAdapters::ConnectionPool::ConnectionLeasin
+gQueue:0x62a4728 @lock=#<ActiveRecord::ConnectionAdapters::ConnectionPool:0x62a48a8 ...>, @cond=#<MonitorMixin::ConditionVariable:0x62a4710 @monitor=#
+<ActiveRecord::ConnectionAdapters::ConnectionPool:0x62a48a8 ...>, @cond=#<Thread::ConditionVariable:0x62a46f8>>, @num_waiting=0, @queue=[]>>, @schema_
+cache=#<ActiveRecord::ConnectionAdapters::SchemaCache:0x5690268 @connection=#<ActiveRecord::ConnectionAdapters::SQLite3Adapter:0x56c11c8 ...>, @column
+s={}, @columns_hash={}, @primary_keys={}, @data_sources={}>, @quoted_table_names={}, @quoted_column_names={}, @visitor=#<Arel::Visitors::SQLite:0x5690
+1c0 @dispatch={}, @connection=#<ActiveRecord::ConnectionAdapters::SQLite3Adapter:0x56c11c8 ...>>, @prepared_statements=true, @active=nil, @statements=
+#<ActiveRecord::ConnectionAdapters::SQLite3Adapter::StatementPool:0x5690100 @cache={}, @statement_limit=1000>>
+irb(main):003:0> Member.all
+  Member Load (10.0ms)  SELECT "members".* FROM "members"
+=> #<ActiveRecord::Relation [#<Member id: 1, name: "Rekha", city: "Pune", gender: "F", created_at: "2017-01-15 09:24:55", updated_at: "2017-01-15 09:2
+5:15">, #<Member id: 2, name: "Arati", city: "Solapur", gender: "F", created_at: "2017-01-15 09:26:12", updated_at: "2017-01-15 09:26:12">, #<Member i
+d: 3, name: "Priyanka", city: "Solapur", gender: "F", created_at: "2017-01-15 09:27:12", updated_at: "2017-01-15 09:27:12">, #<Member id: 4, name: "As
+hwini", city: "Solapur", gender: "F", created_at: "2017-01-15 09:27:36", updated_at: "2017-01-15 09:27:36">, #<Member id: 5, name: "Nandini", city: "S
+olapur", gender: "F", created_at: "2017-01-15 09:28:01", updated_at: "2017-01-15 09:28:01">, #<Member id: 6, name: "Monika", city: "Solapur", gender:
+"F", created_at: "2017-01-15 09:28:19", updated_at: "2017-01-15 09:28:19">, #<Member id: 7, name: "Pooja", city: "Sangli", gender: "F", created_at: "2
+017-01-15 09:28:43", updated_at: "2017-01-15 09:28:43">, #<Member id: 8, name: "Neha", city: "", gender: "", created_at: "2017-01-15 09:43:58", update
+d_at: "2017-01-15 09:43:58">, #<Member id: 9, name: "Rani", city: "Solapur", gender: "F", created_at: "2017-01-15 09:55:32", updated_at: "2017-01-15 0
+9:55:32">]>
+irb(main):004:0> Member.where(name: 'Rani').count
+   (0.0ms)  SELECT COUNT(*) FROM "members" WHERE "members"."name" = ?  [["name", "Rani"]]
+=> 1
+irb(main):005:0> Member.where(name: 'Rani').first
+  Member Load (1.0ms)  SELECT  "members".* FROM "members" WHERE "members"."name" = ? ORDER BY "members"."id" ASC LIMIT ?  [["name", "Rani"], ["LIMIT",
+ 1]]
+=> #<Member id: 9, name: "Rani", city: "Solapur", gender: "F", created_at: "2017-01-15 09:55:32", updated_at: "2017-01-15 09:55:32">
+irb(main):006:0> Member.where(name: 'Rani')
+  Member Load (1.0ms)  SELECT "members".* FROM "members" WHERE "members"."name" = ?  [["name", "Rani"]]
+=> #<ActiveRecord::Relation [#<Member id: 9, name: "Rani", city: "Solapur", gender: "F", created_at: "2017-01-15 09:55:32", updated_at: "2017-01-15 09
+:55:32">]>
+irb(main):007:0> m Member.first
+  Member Load (1.0ms)  SELECT  "members".* FROM "members" ORDER BY "members"."id" ASC LIMIT ?  [["LIMIT", 1]]
+NoMethodError: undefined method `m' for main:Object
+        from (irb):7
+        from D:/ProgramFiles/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/console.rb:65:in `start'
+        from D:/ProgramFiles/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/console_helper.rb:9:in `start'
+        from D:/ProgramFiles/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:78:in `console'
+        from D:/ProgramFiles/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:49:in `run_command!
+'
+        from D:/ProgramFiles/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+        from bin/rails:4:in `require'
+        from bin/rails:4:in `<main>'
+irb(main):008:0> m =Member.first
+  Member Load (1.0ms)  SELECT  "members".* FROM "members" ORDER BY "members"."id" ASC LIMIT ?  [["LIMIT", 1]]
+=> #<Member id: 1, name: "Rekha", city: "Pune", gender: "F", created_at: "2017-01-15 09:24:55", updated_at: "2017-01-15 09:25:15">
+irb(main):009:0> m.gender
+=> "F"
+irb(main):010:0> m.gender ='M'
+=> "M"
+irb(main):011:0> m.save
+   (0.0ms)  begin transaction
+  Member Exists (1.0ms)  SELECT  1 AS one FROM "members" WHERE "members"."name" = ? AND ("members"."id" != ?) LIMIT ?  [["name", "Rekha"], ["id", 1],
+["LIMIT", 1]]
+  SQL (2.0ms)  UPDATE "members" SET "gender" = ?, "updated_at" = ? WHERE "members"."id" = ?  [["gender", "M"], ["updated_at", 2017-01-15 11:41:06 UTC]
+, ["id", 1]]
+   (124.0ms)  commit transaction
+=> true
+irb(main):012:0> m =Member.first
+  Member Load (1.0ms)  SELECT  "members".* FROM "members" ORDER BY "members"."id" ASC LIMIT ?  [["LIMIT", 1]]
+=> #<Member id: 1, name: "Rekha", city: "Pune", gender: "M", created_at: "2017-01-15 09:24:55", updated_at: "2017-01-15 11:41:06">
+irb(main):013:0> m =Member.first
+  Member Load (1.0ms)  SELECT  "members".* FROM "members" ORDER BY "members"."id" ASC LIMIT ?  [["LIMIT", 1]]
+=> #<Member id: 1, name: "Rekha", city: "Pune", gender: "M", created_at: "2017-01-15 09:24:55", updated_at: "2017-01-15 11:41:06">
+irb(main):014:0> m.gender= 'F'
+=> "F"
+irb(main):015:0> m.save
+   (0.0ms)  begin transaction
+  Member Exists (0.0ms)  SELECT  1 AS one FROM "members" WHERE "members"."name" = ? AND ("members"."id" != ?) LIMIT ?  [["name", "Rekha"], ["id", 1],
+["LIMIT", 1]]
+  SQL (1.0ms)  UPDATE "members" SET "gender" = ?, "updated_at" = ? WHERE "members"."id" = ?  [["gender", "F"], ["updated_at", 2017-01-15 11:43:54 UTC]
+, ["id", 1]]
+   (160.0ms)  commit transaction
+=> true
+irb(main):016:0> Member.first
+  Member Load (1.0ms)  SELECT  "members".* FROM "members" ORDER BY "members"."id" ASC LIMIT ?  [["LIMIT", 1]]
+=> #<Member id: 1, name: "Rekha", city: "Pune", gender: "F", created_at: "2017-01-15 09:24:55", updated_at: "2017-01-15 11:43:54">
+irb(main):017:0> exit
+
+D:\ProgramFiles\RailsInstaller\Ruby2.2.0\bin\DecideNGo>rails generate migration AddMemberRefToQuestion member:references
+Expected string default value for '--jbuilder'; got true (boolean)
+      invoke  active_record
+      create    db/migrate/20170115115441_add_member_ref_to_question.rb
+
+D:\ProgramFiles\RailsInstaller\Ruby2.2.0\bin\DecideNGo>

@@ -1,0 +1,9 @@
+#Group(group_id,grp_name,no_of_mems)
+
+
+Member(mem_id,name,group_id)
+
+
+Question(q_id,que,cur_option,group_id,mem_id)
+
+Option(opt_id,value,score)
